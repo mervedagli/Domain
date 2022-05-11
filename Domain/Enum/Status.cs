@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace Domain.Enum
 {
-    public enum Status
+    public enum Status : int
     {
         Hazirlanıyor=1,
         İptal=2,
